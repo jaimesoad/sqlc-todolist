@@ -1,0 +1,28 @@
+
+GET http://localhost:3000/todo/id/1
+
+###
+
+PATCH http://localhost:3000/todo/id/4
+
+###
+
+GET http://localhost:3000/todo/last
+
+###
+
+POST http://localhost:3000/todo
+Content-Type: application/json
+
+{
+  "content": "Clean Room"
+}
+
+###
+
+PUT http://localhost:3000/todo/id/4
+Content-Type: application/json
+
+{
+  "content": "Tomar un baño"
+}
